@@ -6,7 +6,7 @@ class HelloWorld:
 
     def __init__(
         self,
-        name: str = "World",
+        name: str = "medPower3",
     ) -> None:
         """Initialize connection data."""
         self.name = name
