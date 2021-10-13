@@ -14,3 +14,7 @@ class HelloWorld:
     def say_hello(self):
         """Say hello to the world."""
         print(f"Hello {self.name}")
+
+    def say_bye(self):
+        """Say hello to the world."""
+        print(f"Goodbye {self.name}")
