@@ -35,5 +35,5 @@ test = [
 ]
 
 [tool.semantic_release]
-version_variable="semantic-commit-demo/__init__.py:__version__"
+version_variable="SemanticCommitDemo/__init__.py:__version__"
 build_command="pip install flit && flit build"
