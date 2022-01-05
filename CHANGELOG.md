@@ -2,6 +2,13 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2022-01-05)
+### Feature
+* Add say_hello_multiple_times ([`0a5dadb`](https://github.com/eifinger/semantic-commit-demo/commit/0a5dadb2bbcfa0e419548c1ee88c1fd90cf6a07e))
+
+### Fix
+* Standard message is World! ([`541a305`](https://github.com/eifinger/semantic-commit-demo/commit/541a305c90ad745de2fb97509a6a816b6300e85c))
+
 ## v0.1.0 (2022-01-05)
 ### Feature
 * Initial release ([`248b601`](https://github.com/eifinger/semantic-commit-demo/commit/248b6011060f4be3b33d2cf96695d82cd6096e59))
