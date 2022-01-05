@@ -1,4 +1,5 @@
 # SemanticCommitDemo
+
 Playground for Semantic Commits
 
 [![GitHub Actions](https://github.com/eifinger/semantic-commit-demo/workflows/Python%20package/badge.svg)](https://github.com/eifinger/semantic-commit-demo/actions?workflow=Python+package)
@@ -10,7 +11,7 @@ Playground for Semantic Commits
 ## Installation
 
 ```bash
-$ pip install SemanticCommmitDemo
+pip install SemanticCommmitDemo
 ```
 
 ## Usage
