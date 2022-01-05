@@ -11,10 +11,10 @@ class HelloWorld:
         """Initialize connection data."""
         self.name = name
 
-    def say_hello(self):
+    def say_hello(self) -> None:
         """Say hello to the world."""
         print(f"Hello {self.name}")
 
-    def say_bye(self):
+    def say_bye(self) -> None:
         """Say hello to the world."""
         print(f"Goodbye {self.name}")

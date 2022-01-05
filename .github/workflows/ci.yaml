@@ -54,30 +54,11 @@ jobs:
           languages: python
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
-  hacs:
-    name: HACS Action
-    runs-on: "ubuntu-latest"
-    steps:
-      - uses: "actions/checkout@v2"
-      - name: HACS Action
-        uses: "hacs/action@main"
-        with:
-          category: "integration"
-  hass_validate:
-    name: Hassfest
-    runs-on: "ubuntu-latest"
-    steps:
-      - uses: "actions/checkout@v2"
-      - name: Hassfest
-        uses: home-assistant/actions/hassfest@master
   release:
     name: Semantic Release
     runs-on: ubuntu-latest
     needs:
       - build
-      - security
-      - hacs
-      - hass_validate
     if: github.ref == 'refs/heads/master'
     steps:
       - uses: actions/checkout@v2.4.0
