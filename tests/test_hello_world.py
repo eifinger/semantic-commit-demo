@@ -13,3 +13,9 @@ def test_say_bye() -> None:
     """Test that standard works."""
     world = HelloWorld()
     world.say_bye()
+
+
+def test_say_hello_multiple_times() -> None:
+    """Test that say_hello_multiple_times works."""
+    world = HelloWorld()
+    world.say_hello_multiple_times()
