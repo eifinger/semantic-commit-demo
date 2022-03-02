@@ -19,3 +19,9 @@ def test_say_hello_multiple_times() -> None:
     """Test that say_hello_multiple_times works."""
     world = HelloWorld()
     world.say_hello_multiple_times()
+
+
+def test_say_hello_five_times() -> None:
+    """Test that say_hello_five_times works."""
+    world = HelloWorld()
+    world.say_hello_five_times()
