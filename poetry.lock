@@ -696,7 +696,7 @@ dev = ["pre-commit", "tox", "pytest-asyncio"]
 
 [[package]]
 name = "pyupgrade"
-version = "2.34.0"
+version = "2.37.0"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -908,7 +908,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "3be02cd81cad6b34296c3efbb5ed2afa8284e52c431d43ff724d71d555aafceb"
+content-hash = "d4382def08c6b695180038632db947939298accd397c51dda49ae2f029c36622"
 
 [metadata.files]
 astor = []
