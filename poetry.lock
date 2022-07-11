@@ -895,11 +895,11 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
 name = "yamllint"
-version = "1.26.3"
+version = "1.27.1"
 description = "A linter for YAML files."
 category = "dev"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
 pathspec = ">=0.5.3"
@@ -908,7 +908,7 @@ pyyaml = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d4382def08c6b695180038632db947939298accd397c51dda49ae2f029c36622"
+content-hash = "38092b83f427da903ca2540ae00e16084741c974e1f6fc92cd31676c1f054df0"
 
 [metadata.files]
 astor = []
